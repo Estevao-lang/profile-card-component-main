@@ -1,6 +1,5 @@
-# profile-card-component-main
-Projeto de treino, card de perfil de rede social
 # Frontend Mentor - Profile card component
+Projeto de treino, card de perfil de rede social
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
