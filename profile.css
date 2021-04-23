@@ -1,0 +1,142 @@
+:root{
+    font-size:18;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "kumbh Sans", sans-serif;
+    color: hsl(0, 11%, 12%)
+}
+
+section{
+    background: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.card{
+    width: 320px;
+    height:320px;
+    border-radius: 20px;
+    background: white;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.card-header{
+   background-image: url(bg-pattern-card.png);
+   background-size: cover;
+   height: 120px;
+}
+.card-body{
+    padding: 0 20px 25px;
+
+}
+
+.image-holder{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 5px solid white;
+    overflow: hidden;
+    margin: -50px auto 30px auto;
+}
+
+.image-holder img{
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.name-age{
+font-size: 1.1rem;
+margin-top: -28px;
+margin-bottom: 12px;
+}
+
+
+.age,
+.city,
+.meta{
+    font-weight: 400;
+    color:hsl(0, 11%, 12%);
+    opacity: .6;
+}
+.age{
+    font-weight: 400;
+    margin-left: 6px;
+}
+.city{
+    font-size:small;
+    margin-bottom: 10px;
+}
+
+.card-footer {
+    border-top: 1px solid hsl(0, 3%, 86%);
+    display: flex;
+    padding: 0 10px;
+    margin-top: 10x;
+    height: fit-content;
+}
+
+.card-footer .item{
+    flex: 1;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.card-footer .item .value{
+    font-size: 1 rem;
+}
+.card-footer .item .meta{
+    font-size: .8rem;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+/*Circles*/
+
+.circles .c1,
+.circles .c2{
+    position: absolute;
+    width: 780px;
+    animation: 10s circles forwards;
+}
+
+ .c1{
+top: -233px;
+left:-175px;
+transform: translate(150px, 100px);
+
+}
+ .c2{
+bottom: -233px;
+right: -175px;
+transform: translate(150px, 100px);
+
+}
+/*animation*/
+
+@keyframes circles{
+  0%  {
+opacity:0;
+    }
+    100%{
+        opacity: 2;
+        transform: translate(0);
+    }
+}
