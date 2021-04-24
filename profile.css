@@ -114,7 +114,7 @@ margin-bottom: 12px;
 .circles .c2{
     position: absolute;
     width: 780px;
-    animation: 10s circles forwards;
+    animation: 5s circles forwards;
 }
 
  .c1{
