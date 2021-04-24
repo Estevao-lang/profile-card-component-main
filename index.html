@@ -1,35 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+<html>
+ <head>
+    <title>Profile</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="profile.css"/>
 </head>
-<body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+ <body>
+    <section class="main">
+        <div class="circles">
+        <img class="c1" src="bg-pattern-top.png" alt="">
+         <img class="c2" src="bg-pattern-bottom.png" alt="">
+        </div>
+        <div class="card">
+            <div class="card-header"></div>
+            <div class="card-body"></div>
+                <div class="image-holder">
+                    <img src="image-victor.jpg" alt="">
+                </div>
+             <h2 class="name-age">
+                Victor Crest
+                <span class="age">26</span>
+            </h2>
+                <h3 class="city">London</h3>
+            <div class="card-footer">
+                <div class="item">
+                    <h4 class="value">80k</h4>
+                    <h5 class="meta">Follwers</h5>
+                </div>
+             <div class="item">
+                    <h4 class="value">803k</h4>
+                    <h5 class="meta">Likes</h5>
+                </div>
+                 <div class="item">
+                    <h4 class="value">1.4k</h4>
+                    <h5 class="meta">Photos</h5>
+                </div>
+            </div>
+        </div>
+     </section>
+ </body>
 </html>
